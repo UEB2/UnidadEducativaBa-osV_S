@@ -1,0 +1,219 @@
+*{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+}
+/*cabecera*/
+body{
+    width: 1200px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(236, 255, 127);
+}
+H1{
+    width: 900px;
+    height: 200px;
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 55px;
+    left: 10px;   
+}
+.menu{
+    width: auto;
+    height: 250px;
+    background-image: url('../contenido/imagenes/cabezera.jpg');
+    z-index: 1;
+}
+.navegador{
+    position: absolute;
+    top: 150px;
+    left: auto;
+}
+#header{
+    margin: auto;
+    width: 600 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul, ol{
+    list-style:none;
+}
+.nav li a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    padding: 10px 30px;
+    display: block;
+}
+.nav > li {
+    float: left;
+}
+.nav li a:hover{
+    background-color: rgb(56, 55, 55);
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 300px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul {
+    left: 300px;
+    top: 0px;
+}
+.logo{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 1190px;
+}
+/*contenido*/
+main{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 250px;
+    left: auto;
+    z-index: -1;
+}
+h2{
+    text-align: center;
+    font-size: 4em;
+}
+.cuadro1{
+    width: 900px;
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 90px;
+}
+.cuadro2{
+    width: 900px;
+    height: 380px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 80PX;
+    left: 10PX;
+}
+.cuadro3{
+    width: 900px;
+    height: 110px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    border-width: 3px;
+    position: absolute;
+    top: 480PX;
+    left: 300PX;
+}
+.cuadro4{
+    width: 600px;
+    height: 260px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 600PX;
+    left: 30PX;
+}
+.cuadro5{
+    width: 1000px;
+    height: 800px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 880PX;
+    left: 200PX;
+}
+.cuadro6{
+    width: 550px;
+    height: 290px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 1700PX;
+    left: 30PX;
+}
+.cuadro7{
+    width: 550px;
+    height: 290px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 1700PX;
+    left: 650PX;
+}
+h3{
+    text-align: center;
+}
+/*pie de pagina*/
+footer{
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2250px;
+    z-index: -2;
+}
+.piedepagina{
+    width: 1000px;
+    height: 180px;
+    position: relative;
+}
+.texto{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 0x;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.5mm;
+    line-height: 2.5em;
+}
+.texto2{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.5mm;
+    line-height: 2.5em;
+}
+.texto3{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 540px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.5mm;
+    line-height: 2.5em;
+}
+.face{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top: 45px;
+    left: 900px;
+    z-index: -2;
+}
